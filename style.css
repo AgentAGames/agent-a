@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+body{
+  background-color: rgb(1,13,1);
+}
+
+  .header {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    width: 500px;
+    margin-left: 200px;
+  }
+  
+  .nav-links {
+    flex: 1;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  .nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(-400px) translateY(-600px);
+    margin-top: -600px;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-align: right;
+  }
+  
+  .nav-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 10px;
+    padding-right: 75px;
+
+  }
+  
+  .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #92fd50;
+    display: block;
+    margin: auto;
+  }
+  
+  .nav-links ul li:hover::after {
+    width: 100%;
+  }
+
+  .devInfo{
+    /*background-color: #92fd50;*/
+    height: 45vh;
+    width: 50vw;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -950px;
+    font-size: 100px;
+  }
+
+  .hello{
+    font-family: 'Caprasimo', cursive;
+    font-size: 70px;
+    color: white;
+  }
+
+  .name{
+    color: lime;
+    font-size: 200px;
+    font-family: 'Rowdies', cursive;
+  }
+
+  .info{
+    font-family: 'Caprasimo', cursive;
+    font-size: 80px;
+    color: white;
+  }
+
+  .youtube{
+    color: red;
+    font-family: 'Caprasimo', cursive;
+    font-size: 100px;
+  }
+
+  .youtube2{
+    font-family: 'Caprasimo', cursive;
+  }
+
+  .ugc{
+    font-family: 'Caprasimo', cursive;
+    color: gold;
+    font-size: 100px;
+  }
+
+  .designer{
+    font-family: 'Caprasimo', cursive;
+  }
+
+  .buttons button{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-color: white;
+    border-radius: 100px;
+    border-width: 5.5px;
+  }
+
+  .buttons button:hover{
+    background-color: white;
+    border-color: red;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .buttons button img{
+    width: 63px;
+    border-radius: 40px;
+    margin-top: px;
+  }
+
+  .aboutpage {
+    width: 80%;
+    color:white;
+    font-size: 60px;
+    margin: auto;
+    text-align: center;
+    padding-top: 500px;
+  }
+
+  .projectspage {
+    width: 80%;
+    font-size: 60px;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 300px;
+  }
+
+  .blogpage {
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    margin-top: 300px;
+  }
+
+  .contactpage {
+    width: 100%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 300px;
+    background-color: rgb(0, 46, 0);
+  }
+
+  .hello2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .abd{
+    font-family: 'Caprasimo', cursive;
+    color: #92fd50;
+  }
+
+  .blah{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .yt{
+    font-family: 'Caprasimo', cursive;
+    color: red;
+  }
+
+  .blah2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+  .rblx{
+    font-family: 'Caprasimo', cursive;
+    color: red;
+  }
+
+  .blah3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .ugc2{
+    font-family: 'Caprasimo', cursive;
+    color: gold;
+  }
+
+  .in{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .blender{
+    font-family: 'Caprasimo', cursive;
+    color: orange;
+  }
+
+  .projectspage{
+    text-align: center;
+  }
+
+  .photos{
+    width: 10px;
+    margin: auto;
+    padding-top: 50px;
+    align-items:last baseline;
+    display: flex;
+    justify-content: right;
+    margin-left: 2000px;
+  }
+
+  .text{
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 100px;
+  }
+
+  .t1{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 200px;
+  }
+
+  .t2{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1300px;
+  }
+
+  .t3{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 600px;
+  }
+
+  .t4{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 600px;
+  }
+
+  .t5{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 900px;
+  }
+
+  .t6{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1450px;
+  }
+
+  .t7{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 850px;
+  }
+
+  .t8{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1300px;
+  }
+
+  .t9{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1400px;
+  }
+
+  .t10{
+    margin-left: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1400px;
+  }
+
+  .ytbuttonblog button:hover{
+    background-color: white;
+    border-color: red;
+    cursor: pointer;
+    transition: 1s;
+  }
+
+  .ytbuttonblog button img{
+    width: 400px;
+    border-radius: 25%;
+    margin-left: -30px;
+  }
+
+  .ytbuttonblog button{
+    width: 500px;
+    border-radius: 25%;
+    border-width: 30px;
+    background-color: white;
+  }
+
+  .ytbuttonblog{
+    margin-top: 100px;
+  }
+
+  .logo{
+    border-radius: 20px;
+  }
+
